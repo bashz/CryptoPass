@@ -1,9 +1,25 @@
 {
-  "name": "cryptopass",
-  "title": "cryptoPass",
-  "id": "jid1-R0PNUuKgPbJbJQ",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 2.0",
-  "version": "0.1"
+    "name": "cryptopass",
+    "title": "cryptoPass",
+    "id": "jid1-R0PNUuKgPbJbJQ",
+    "description": "Notify about request tracker new tickets",
+    "author": "nemlaghi.bechir@gmail.com",
+    "license": "MPL 2.0",
+    "version": "0.1",
+    "preferences": [
+        {
+            "description": "Set duration - in secondes -  between each check for updates, short duration would throttle your Request tracker !",
+            "name": "interval",
+            "type": "integer",
+            "value": 10,
+            "title": "Update Interval"
+        },
+        {
+            "description": "Your request tracker URL",
+            "name": "instance",
+            "type": "string",
+            "value": "http://rt.easter-eggs.org/demos/4.2",
+            "title": "Request tracker URL"
+        }
+    ]
 }
