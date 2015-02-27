@@ -1,0 +1,17 @@
+body{
+    background-color: #cccccc;
+    color: #110011;
+}
+#notification-list > ul:nth-child(2n) {
+    background-color: #dddddd;
+}
+
+#notification-list > ul:nth-child(2n+1) {
+    background-color: #f7f7f7;
+}
+ul{
+    margin: 6px 0;
+    padding: 6px;
+    list-style: none;
+    border-radius: 6px;
+}
