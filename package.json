@@ -8,18 +8,18 @@
     "version": "0.1",
     "preferences": [
         {
-            "description": "Set duration - in secondes -  between each check for updates, short duration would throttle your Request tracker !",
-            "name": "interval",
-            "type": "integer",
-            "value": 60,
-            "title": "Update Interval"
-        },
-        {
             "description": "Your request tracker URL",
             "name": "instance",
             "type": "string",
             "value": "http://rt.easter-eggs.org/demos/4.2",
             "title": "Request tracker URL"
+        },
+        {
+            "description": "Set duration - in secondes -  between each check for updates, short duration would throttle your Request tracker !",
+            "name": "interval",
+            "type": "integer",
+            "value": 60,
+            "title": "Update Interval"
         }
     ]
 }
