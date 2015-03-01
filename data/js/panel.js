@@ -8,4 +8,5 @@ self.port.on("buildNotification", function (notification, instance) {
     ul.appendChild(link);
     ul.appendChild(description);
     container.insertBefore(ul, container.firstChild);
+    document.getElementById("audio").play();
 });
